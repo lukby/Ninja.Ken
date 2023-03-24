@@ -1,0 +1,227 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;700&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+ }
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+}
+
+
+/* header */
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(52, 51, 51);
+}
+
+.atas{
+    padding: 8px 25px;
+    display: flex;
+    align-items: center;
+}
+ 
+.judul {
+    text-transform: uppercase;
+    margin-right: 80px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.kanan a{
+    display: inline-block;
+    margin-right: 45px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+/* main 1 */
+.main1{
+    width: 100%;
+    height: auto;
+    padding: 55px 0 35px ;
+    text-align: center;
+    color: rgb(52, 51, 51);
+}
+
+.main1-atas {
+    text-transform: uppercase;
+}
+
+.main1-atas h1 {
+    font-size:  90px;
+}
+
+.main1-atas span {
+    color: rgb(112, 112, 249);
+}
+
+.main1-atas h3 {
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.main1-bawah {
+    padding-top: 20px;
+}
+
+.main1-bawah img {
+    height: 250px;
+}
+
+
+/* main 2 */
+.main2 {
+    width: 100%;
+    height: auto;
+    padding: 80px 130px;
+    text-align: center;
+    color: rgb(52, 51, 51);
+    background-color: rgb(241, 241, 241);
+}
+
+.main2-isi h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.main2-isi p {
+    padding-top: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+/* main 3 */
+.main3{
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    text-align: center;
+    color: rgb(52, 51, 51);
+}
+
+.main3-atas h1 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.main3-bawah {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card img {
+    height: 120px;
+}
+
+.card p {
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+/* form */
+.form {
+    width: 100%;
+    height: auto;
+    padding: 70px 300px;
+    text-align: center;
+    color: rgb(52, 51, 51);
+    background-color: rgb(241, 241, 241);
+}
+
+.form-atas h1{
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.form-isi {
+    margin-top: 30px;
+}
+
+.email input {
+    width: 100%;
+    padding: 13px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.pesan textarea {
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px 10px;
+    border-radius: 8px;
+    border: none;
+    height: 60px;
+} 
+
+::placeholder {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 13px;
+    color: rgb(52, 51, 51);
+    text-transform: capitalize;
+}
+
+.btn button {
+    width: 30%;
+    margin-top: 70px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(112, 112, 249);
+    font-family: 'Noto Sans TC', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(86, 86, 86);
+    text-align: center;
+}
+
+.bawah{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bawah-kiri h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+
+.bawah-kanan{
+    margin-top: 20px;
+}
+
+.bawah-kanan a{
+    display: block;
+    margin-bottom: 13px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+@media (max-width: 1000px) {
+  .btn button {
+    width: 50%;
+  }
+
+  .form {
+    padding: 70px 200px;
+  }
+}
+
+@media (max-width: 670px) {
+  .main1-atas h1 {
+    font-size:  70px;
+  }
+
+  .main1-atas h3 {
+    font-size: 25px;
+  }
+
+  .main1-bawah img {
+    height: 100px;
+  }
+
+  .btn button {
+    width: 100%;
+  }
+
+  .form {
+    padding: 70px 100px;
+  }
+
+  .main2 {
+    padding: 80px 20px;
+}
+
+  .judul {
+    margin-right: 20px;
+  }
+
+  .kanan a{
+    margin-right: 5px;
+  }
+
+
+
+}
