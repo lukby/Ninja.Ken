@@ -1,1 +1,1 @@
-# latihan-html-css
+# Project 1 Individual by Progate
